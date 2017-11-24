@@ -1,0 +1,65 @@
+
+ Q1
+ 
+    Basalts have also been found on other celestial bodies than Earth in the solar system. Choose the planets or satellites according to the lecture.
+    
+
+       Mars
+       
+
+       Venus
+       
+
+       Moon
+       
+
+       Jupiter
+       
+
+       Saturn
+       
+ Q2
+ 
+    Which evidence is the best for indicating presence of liquid water on a planet in the past.
+    
+
+       The planet has granite.
+       
+
+       The planet has the magnetic field.
+       
+
+       The planet has been collided by asteroids.
+       
+
+       The planet has basalts.
+       
+ Q4
+ 
+    This diagram plots the ratio of elements in the chemical composition of meteorites and that of the solar atmosphere. To plot hydrogen(Note that hydrogen is a volatile element) in this diagram, which of the following locations should it be?
+    
+
+       1
+       
+
+       2
+       
+
+       3
+       
+ Q5
+ 
+    How can the chemical composition of the nonvolatile elements in the core be estimated conceptionally? (the chemical composition of the nonvolatile elements in the core)
+    
+
+       = (chemical composition of Earth as a whole as estimated from meteorites) + (chemical composition of mantle) - (chemical composition of crust)
+       
+
+       = (chemical composition of Earth as a whole as estimated from meteorites)
+       
+
+       = (chemical composition of Earth as a whole as estimated from meteorites) - (chemical composition of mantle) - (chemical composition of crust)
+       
+
+       = 2 × (chemical composition of mantle) - (chemical composition of crust)
+       

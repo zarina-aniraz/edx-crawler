@@ -1,0 +1,14 @@
+
+ Quiz
+ 
+    How can we estimate that the approximate chemical composition of entire mantle corresponds to the chemical composition of Olivine?
+    
+
+       Through high pressure experiments, it has been found that the chemical composition of rocks in the crust is the same as the chemical composition of rocks in the shallow part of the mantle
+       
+
+       The depth that phase transition occurs when a rock from the shallow part of a mantle is placed in a high pressure experiment matches the depth of the reflection surfaces of seismic waves
+       
+
+       The chemical composition of rocks in the mantle can be learned directly by observing of seismic waves
+       
