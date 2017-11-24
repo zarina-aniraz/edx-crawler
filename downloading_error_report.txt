@@ -1,2 +1,0 @@
-External command error ignored: [Errno 2] No such file or directory: 'HTMLs\\Introduction_to_Electrical_and_Electronic_Engineering_-__-\\02-Week_1._Power_Energy_and_Environment_-_\\Part_2._Special_Lecture_on_Next-Generation_High_Speed_Railway_by_Central_Japan_Railway_Company_-_JR\\seq_contents_0.html'
-
