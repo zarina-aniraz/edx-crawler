@@ -17,7 +17,9 @@ import re
 import sys
 import string
 import codecs
+import subprocess
 
+from webvtt import WebVTT
 from datetime import datetime
 from functools import partial
 from multiprocessing.dummy import Pool as ThreadPool
@@ -581,7 +583,7 @@ def extract_problem_comp(soup):
     return text,type_div 
        
 
-def extract_unit(subsection_page):
+def crawl_units(subsection_page):
 	unit = []
 	#for e_html in subsection_page:
 	tmp=[]
@@ -598,10 +600,105 @@ def extract_unit(subsection_page):
 	
 	return unit
 
+
+
+
+def videolen(yt_link):
+	duration_raw = subprocess.check_output('youtube-dl '+ yt_link + ' --get-duration')
+	timeformat = duration_raw.decode("utf-8").split(':')
+	if len(timeformat) == 1:
+		duration = int(timeformat[0])
+	elif len(timeformat) == 2:
+		duration = int(timeformat[0])*60+int(timeformat[1])
+	else:
+		duration = int(timeformat[0])*3600+int(timeformat[1])*60+ timeformat[2]
+	return duration
+
+def vtt2json(vttfile):
+	t_start_milli = []
+	t_end_milli = []
+	text = []
+	for caption in WebVTT().read(vttfile):
+		h,m,s,ms= re.split(r'[\.:]+', caption.start)
+		t_start_milli.append(h*3600*1000+m*60*1000+s*1000+ms)
+		
+		h,m,s,ms= re.split(r'[\.:]+', caption.end)
+		t_end_milli.append(h*3600*1000+m*60*1000+s*1000+ms)
+		
+		text.append(caption.text)
+	
+	dict_obj = dict({"start":t_start_milli,"end":t_end_milli,"text":text})
+	return dict_obj
+
+
+def YT_transcript(yt_link,key):
+	checksub = subprocess.check_output('youtube-dl '+ yt_link + ' --list-sub'+ '')
+	transcript_raw = ''
+	if 'has no subtitles' not in checksub.decode('utf-8'):
+		lang_ls = list(filter(None, checksub.decode("utf-8").split('Language formats\n')[2].split('\n')))
+		for lang in lang_ls:
+			if key in lang:
+				sub_dl = subprocess.check_output('youtube-dl '+ yt_link + ' --skip-download --write-sub --sub-lang '+key)
+				vttfile = re.sub(r'\n','',sub_dl.decode('utf-8').split('Writing video subtitles to: ')[1])
+				transcript_raw = vtt2json(vttfile)
+				os.remove(vttfile)
+	return transcript_raw
+
+def extract_video_component(args,coursename,headers,soup,section,subsection,unit):	
+	
+	video_flag = soup.findAll("div", {"data-block-type": "video"})
+	video_meta_list = []
+	for video_comp in video_flag:
+		video_meta = dict()
+		txtjson = video_comp.find('div',{"data-metadata":True})['data-metadata']
+		txt2dict = json.loads(txtjson)
+		yt_id = re.sub(r"1.00:", '', txt2dict['streams'])
+		yt_link = 'https://youtu.be/'+ yt_id
+		duration = videolen(yt_link)
+
+		video_meta.update({'section': section , 'subsection': subsection, 'unit_idx': unit, 'youtube_url':yt_link, 'video_duration':duration})
+		for key, value in txt2dict['transcriptLanguages'].items():
+			transcript_name = 'transcript_'+ key
+			transcript_url = 'https://courses.edx.org/' + re.sub(r"__lang__",key, txt2dict['transcriptTranslationUrl']) 
+			print('download '+ value + ' transcript of '+ yt_link)
+			try:
+				transcript_dump = get_page_contents(transcript_url, headers)
+				transcript_raw = json.loads(transcript_dump)
+				#print (transcript_raw)
+				video_meta.update({transcript_name:transcript_raw['text']})
+			except (HTTPError,URLError) as exception:
+				print('     bug: cannot download from edx site')
+				transcript_dump = YT_transcript(yt_link,key)
+				if len(transcript_dump) == 0:
+					print('     no transcript available on YouTube')
+					video_meta.update({transcript_name:{"start":'',"end":'',"text":''}})
+					logging.warn('transcript (error: %s)', exception)
+					errorlog = os.path.join(args.html_dir,coursename,'transcript_error_report.txt')
+					f = open(errorlog, 'a')
+					text = '---------------------------------\n'\
+					+ 'transcript error: ' + str(exception) +'\n' \
+					+ 'video url: '+ yt_link +'\n' \
+					+ 'language: ' + value + '\n' \
+					+ 'section:  ' + section + '\n'\
+					+ 'subsection: ' + subsection + '\n'\
+					+ 'unit_idx: ' + unit + '\n' \
+					+'---------------------------------'
+					f.write(text)
+					f.close()
+				else:
+					print('     transcript was successfuly downloaded from YouTube')
+					video_meta.update({transcript_name:transcript_dump['text']})
+
+		video_meta_list.append(video_meta)
+	return video_meta_list
+
+
 def save_html_to_file(args, selections, all_urls, headers):
 
 	sub_idx = 0
 	prob_type_set = []
+	counter_video = 1
+
 	for selected_course, selected_sections in selections.items():
 		coursename = directory_name(selected_course.name)
 		
@@ -620,11 +717,13 @@ def save_html_to_file(args, selections, all_urls, headers):
 				mkdir_p(target_subdir)
 				logging.info('url: '+ str(all_urls[sub_idx]) + ', subsection: ' + str(subsection.name))
 				page = get_page_contents(str(all_urls[sub_idx]), headers)
-		
+				#print ("Contents!\n")
 				soup = BeautifulSoup(page, "html.parser")
+
+				#div contains all units (seq_contents_#)
 				main_content=soup.find("div", {"class": "container"})
 
-				units = extract_unit(main_content)
+				units = crawl_units(main_content)
 				counter = 0
 				sub_idx = sub_idx+1
 
@@ -635,6 +734,14 @@ def save_html_to_file(args, selections, all_urls, headers):
 
 					filename_template_txt = "seq_contents_"+str(counter) +".txt"
 					filename_txt = os.path.join(target_subdir, filename_template_txt)
+
+					filename_template_prob_txt = "seq_contents_"+str(counter) +"_prob.txt"
+					filename_prob_txt = os.path.join(target_subdir, filename_template_prob_txt)
+
+					filename_template_video_json = "seq_contents_"+str(counter) +"_vdo.json"
+					filename_video_json = os.path.join(target_subdir, filename_template_video_json)
+
+
 
 					logging.info('path: '+ str(target_subdir) + ', filename: ' + str(filename))
 
@@ -653,7 +760,7 @@ def save_html_to_file(args, selections, all_urls, headers):
 					soup =unit.prettify(formatter=None)
 					soup = BeautifulSoup(soup, "html.parser")
 					
-					# select only html componert (disregard video, quiz)
+					# select only html componert (disregard video, problem)
 					html_flag = soup.findAll("div", {"data-block-type": "html"})
 					if len(html_flag) > 0:
 					
@@ -666,20 +773,35 @@ def save_html_to_file(args, selections, all_urls, headers):
 
 						file_txt.writelines(text)
 						file_txt.close()
+						print(filename_txt + ' of text component was created')
 
-					# select only problem componert (disregard video, quiz)
+					# select only problem componert (disregard video, text)
 					prob_txt,prob_types = extract_problem_comp(soup)
 					
 					if len(prob_txt) > 0:
+						file_prob_txt = sys.stdout if filename == '-' else codecs.open( filename_prob_txt, 'w', 'utf-8')
 						for prob_type in prob_types:
 							prob_type_set.append(prob_type+' \n')
-						filename_template_prob_txt = "seq_contents_"+str(counter) +"_prob.txt"
-						filename_prob_txt = os.path.join(target_subdir, filename_template_prob_txt)
-						file_prob_txt = sys.stdout if filename == '-' else codecs.open( filename_prob_txt, 'w', 'utf-8')
+						
 						file_prob_txt.writelines(prob_txt)
 						file_prob_txt.close()
+						print(filename_prob_txt + ' of problem component was created')
+
+					tmp_video_dict = extract_video_component(args,coursename,headers,soup,clean_filename(section_dirname),clean_filename(subsection.name),"seq_contents_"+str(counter))
+					if len(tmp_video_dict) > 0:
+						file_video_json = sys.stdout if filename == '-' else codecs.open( filename_video_json, 'w', 'utf-8')
+						video_unit_dict = dict()
+						for vd in tmp_video_dict:
+							video_unit_dict.update({"video_block_"+str(counter_video).zfill(2):vd})
+							counter_video +=1
+						video_dict2json = json.dumps(video_unit_dict, sort_keys=False, indent=4, separators=(',', ': '))
+						file_video_json.writelines(video_dict2json)
+						file_video_json.close()
+						print(filename_video_json + ' of video component was created')
+						
 
 					counter += 1
+
 	save_urls_to_file(prob_type_set,  os.path.join(args.html_dir, coursename,  "all_prob_type.txt"))
 	
 
