@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+# November 2017. OEDO Analytics Group
+#
+# The program processes html data and produces .json output:
+# all text components -> all_textcomp.json
+# all problem components -> all_probcomp.json
+# all video components -> all_videocomp.json
+# all components (text, problems, videos) -> all_comp.json
+
+#===============================================================
+
 
 import os,re,json
 import codecs
