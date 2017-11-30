@@ -26,10 +26,10 @@ Python packages and dependencies
 The output is a weekly organized structure of the course in "HTMLs" folder.
 The contents are the following:
 
-*seq_contents_#.html - text data of the sequence (unit) in the .html format
-*seq_contents_#.txt - text data of the sequence (unit) in the .txt format
-*seq_contents_#_prob.txt - text data of the quiz sections in the .txt format
-*seq_contents_#_vdo.json - video transcript information in .json format
+* seq_contents_#.html - text data of the sequence (unit) in the .html format
+* seq_contents_#.txt - text data of the sequence (unit) in the .txt format
+* seq_contents_#_prob.txt - text data of the quiz sections in the .txt format
+* seq_contents_#_vdo.json - video transcript information in .json format
 
 2. JSON format
 
