@@ -16,13 +16,11 @@ import os,re,json
 import codecs
 
 from bs4 import BeautifulSoup as BeautifulSoup
-
 from nltk.stem import PorterStemmer
 from nltk.tokenize import sent_tokenize, word_tokenize
-from collections import Counter
+from collections import Counter 
 
 BASE_PATH = 'HTMLs'
-
 
 def course_selection():
     
@@ -45,6 +43,7 @@ def course_selection():
             print ('wrong course id. Try again!!!!!!!!')
     return chosen_course
 
+
 def check_true_dir(selected_dir):
     if os.path.isdir(selected_dir):
         return os.listdir(selected_dir) 
@@ -63,9 +62,7 @@ def winapi_path(dos_path, encoding=None):
 
 
 def file2dict(chosen_course):
-
-    
-    
+ 
     txt_id = 1
     prob_id = 1
     video_id =  1
@@ -173,15 +170,8 @@ def file2dict(chosen_course):
     file_txt.close()
 
 
-
-
-
-
-
 def main(): 
     file2dict(course_selection())
-
-
 
 
 if __name__ == '__main__':
@@ -190,7 +180,4 @@ if __name__ == '__main__':
     except KeyboardInterrupt:
         logging.warn("\n\nCTRL-C detected, shutting down....")
         sys.exit(ExitCode.OK)
-
-    
-    
     

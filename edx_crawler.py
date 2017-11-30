@@ -80,66 +80,49 @@ def parse_args():
 	parser = argparse.ArgumentParser(prog='edx-crawler',
 									 description='Crawling text from the OpenEdX platform')
 	
-	# positional
-	parser.add_argument('course_urls',
+	# optional arguments
+	parser.add_argument('-url',
+						'--course-urls',
+						dest='course_urls',
 						nargs='*',
 						action='store',
-						default=[],
-						help='target course urls '
-						'(e.g., https://courses.edx.org/courses/BerkeleyX/CS191x/2013_Spring/info)')
+						required=True,
+						help='target course urls'
+						'(e.g., https://courses.edx.org/courses/course-v1:TokyoTechX+GeoS101x+2T2016/course/)')
 
-	# optional
 	parser.add_argument('-u',
 						'--username',
+						dest='username',
 						required=True,
 						action='store',
 						help='your edX username (email)')
 
 	parser.add_argument('-p',
 						'--password',
+						dest='password',
 						action='store',
-						help='your edX password, '
+						help='your edX password'
 						'beware: it might be visible to other users on your system')
 
-	parser.add_argument('-hd',
+	parser.add_argument('-d',
 						'--html-dir',
-						action='store',
 						dest='html_dir',
-						help='store the html files to the specified directory',
+						action='store',
+						help='directory to store data',
 						default='HTMLs')
 
-	parser.add_argument('-i',
-						'--ignore-errors',
-						dest='ignore_errors',
-						action='store_true',
-						default=False,
-						help='continue on download errors, to avoid stopping large downloads')
-
-	
 	parser.add_argument('-x',
 						'--platform',
-						action='store',
 						dest='platform',
+						action='store',	
 						help='default is edx platform',
 						default='edx')
-
-	parser.add_argument('--list-courses',
-						dest='list_courses',
-						action='store_true',
-						default=False,
-						help='list available courses')
 
 	parser.add_argument('--filter-section',
 						dest='filter_section',
 						action='store',
 						default=None,
 						help='filters sections to be downloaded')
-
-	parser.add_argument('--list-sections',
-						dest='list_sections',
-						action='store_true',
-						default=False,
-						help='list available sections')
 
 	parser.add_argument('--list-file-formats',
 						dest='list_file_formats',
@@ -160,12 +143,6 @@ def parse_args():
 						default=False,
 						help='if active overwrites the file formats to be '
 						'extracted')
-
-	parser.add_argument('--pages',
-						dest='pages',
-						action='store_false',
-						default=True,
-						help='download page as course\'s Unit')
 
 	parser.add_argument('--sequential',
 						dest='sequential',
@@ -401,10 +378,6 @@ def parse_courses(args, available_courses):
 	"""
 	Parses courses options and returns the selected_courses.
 	"""
-	if args.list_courses:
-		_display_courses(available_courses)
-		exit(ExitCode.OK)
-
 	if len(args.course_urls) == 0:
 		logging.error('You must pass the URL of at least one course, check the correct url with --list-courses')
 		exit(ExitCode.MISSING_COURSE_URL)
@@ -424,11 +397,6 @@ def parse_sections(args, selections):
 	Parses sections options and returns selections filtered by
 	selected_sections
 	"""
-	if args.list_sections:
-		for selected_course, selected_sections in selections.items():
-			_display_sections_menu(selected_course, selected_sections)
-		exit(ExitCode.OK)
-
 	if not args.filter_section:
 		return selections
 
@@ -604,7 +572,7 @@ def crawl_units(subsection_page):
 
 
 def videolen(yt_link):
-	duration_raw = subprocess.check_output('youtube-dl '+ yt_link + ' --get-duration')
+	duration_raw = subprocess.check_output(["youtube-dl",yt_link, "--get-duration"])
 	timeformat = duration_raw.decode("utf-8").split(':')
 	if len(timeformat) == 1:
 		duration = int(timeformat[0])
@@ -632,13 +600,13 @@ def vtt2json(vttfile):
 
 
 def YT_transcript(yt_link,key):
-	checksub = subprocess.check_output('youtube-dl '+ yt_link + ' --list-sub'+ '')
+	checksub = subprocess.check_output(["youtube-dl",yt_link, "--list-sub"])
 	transcript_raw = ''
 	if 'has no subtitles' not in checksub.decode('utf-8'):
 		lang_ls = list(filter(None, checksub.decode("utf-8").split('Language formats\n')[2].split('\n')))
 		for lang in lang_ls:
 			if key in lang:
-				sub_dl = subprocess.check_output('youtube-dl '+ yt_link + ' --skip-download --write-sub --sub-lang '+key)
+				sub_dl = subprocess.check_output(["youtube-dl", yt_link, "--skip-download", "--write-sub", "--sub-lang", key])
 				vttfile = re.sub(r'\n','',sub_dl.decode('utf-8').split('Writing video subtitles to: ')[1])
 				transcript_raw = vtt2json(vttfile)
 				os.remove(vttfile)
@@ -873,8 +841,7 @@ def main():
 				 (num_all_urls - num_filtered_urls), num_all_urls)
 
 	#saving html contebt as course unit
-	if args.pages:
-		save_html_to_file(args, selections, all_urls, headers)
+	save_html_to_file(args, selections, all_urls, headers)
 	
 
 if __name__ == '__main__':
