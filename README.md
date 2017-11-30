@@ -46,7 +46,7 @@ After crawling courses, you may run txtcomp2json to summarize data in json forma
 *all video components -> all_videocomp.json
 *all components (text, problems, videos) -> all_comp.json
 
-##Extra files and folders
+## Extra files and folders
 
 transcript_error_report.txt contains the information about videos which are not accompanied by transcripts.
 
