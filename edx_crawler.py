@@ -579,7 +579,7 @@ def videolen(yt_link):
 	elif len(timeformat) == 2:
 		duration = int(timeformat[0])*60+int(timeformat[1])
 	else:
-		duration = int(timeformat[0])*3600+int(timeformat[1])*60+ timeformat[2]
+		duration = int(timeformat[0])*3600+int(timeformat[1])*60+ int(timeformat[2])
 	return duration
 
 def vtt2json(vttfile):
