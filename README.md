@@ -1,6 +1,6 @@
 # edx-crawler
 
-**edx-crawler** is a Python-based cross-platform tool for mining text data from the enrolled courses available on [edX platform](www.edx.org) dashboard. It was developed by teaching assistants at Tokyo Tech Online Education Development Office as an extension of [edx-dl](https://github.com/coursera-dl/edx-dl).
+**edx-crawler** is a Python-based cross-platform tool for mining text data of the enrolled [edX](www.edx.org) courses available on a user's dashboard. It was developed by teaching assistants at Tokyo Tech Online Education Development Office as an extension of [edx-dl](https://github.com/coursera-dl/edx-dl).
 
 ## Prerequisites
 Python libraries and modules:
