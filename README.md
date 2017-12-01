@@ -14,7 +14,7 @@ Python packages and dependencies
 
 1. Run a python script edx_crawler.py passing edx course link, username -u and password -p as parameters.
 
-	python edx_crawler.py course_url -u edx_user_name -p dx_user_password.
+	python edx_crawler.py [course_url] -u [edx_user_name] -p [edx_user_password]
 
 ## OPTIONS
 
@@ -45,5 +45,4 @@ After crawling courses, you may run txtcomp2json to summarize data in json forma
 
 ## Extra files and folders
 
-transcript_error_report.txt contains the information about videos which are not accompanied by transcripts.
-
+transcript_error_report.txt contains the information about video transcripts which are not provided by edx or YouTube.
