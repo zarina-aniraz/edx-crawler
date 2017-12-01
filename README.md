@@ -38,10 +38,10 @@ After crawling courses, you may run `txtcomp2json.py` to store crawled data in .
 	python txtcomp2json.py
 	
  The program aggregates crawled data of the courses in "HTMLs" folder and produces .json output in the following manner:
-*all text components -> all_textcomp.json
-*all problem components -> all_probcomp.json
-*all video components -> all_videocomp.json
-*all components (text, quizes, videos) -> all_comp.json
+* all text components -> all_textcomp.json
+* all problem components -> all_probcomp.json
+* all video components -> all_videocomp.json
+* all components (text, quizes, videos) -> all_comp.json
 
 ## Extra files and folders
 
