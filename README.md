@@ -12,7 +12,7 @@ Python libraries and modules:
 
 ## How to run
 
-Run a python script edx_crawler.py passing edx course link -url , username -u and password -p as parameters.
+Run a python script `edx_crawler.py` passing edx course link `-url` , username `-u` and password `-p` as parameters.
 
 	python edx_crawler.py -url [course_url] -u [edx_user_name] -p [edx_user_password]
 
