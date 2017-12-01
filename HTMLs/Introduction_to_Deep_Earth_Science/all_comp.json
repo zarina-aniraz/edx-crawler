@@ -1,0 +1,1196 @@
+{
+    "01_HTMLModule": {
+        "section": "01-Week_0._Getting_started",
+        "subsection": "Getting_familiar_with_an_edX_course",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "02_HTMLModule": {
+        "section": "01-Week_0._Getting_started",
+        "subsection": "Pre-course_survey",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "03_HTMLModule": {
+        "section": "01-Week_0._Getting_started",
+        "subsection": "Welcome",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "04_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "05_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "06_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "07_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "08_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "09_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "100_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "video",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "101_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "102_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "103_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_5.html"
+    },
+    "104_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "105_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "106_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "107_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "108_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "109_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "video",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "10_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "110_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "111_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "video",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "112_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "113_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "type": "html",
+        "unit_idx": "seq_contents_5.html"
+    },
+    "114_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Coffee_Break_3",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "115_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Coffee_Break_3",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "116_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "117_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Introduction",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "118_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Quiz",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "119_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "11_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "120_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "121_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "122_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "123_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Summary",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "124_HTMLModule": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "125_HTMLModule": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "126_HTMLModule": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "127_Video": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "video",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "128_Video": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "video",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "129_HTMLModule": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "12_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "130_HTMLModule": {
+        "section": "05-Virtual_Field_trip_to_SPring-8",
+        "subsection": "Virtual_Field_trip_to_SPring-8",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "131_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-1._How_hot_is_the_interior_of_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "132_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-1._How_hot_is_the_interior_of_the_Earth",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "133_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-1._How_hot_is_the_interior_of_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "134_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-1._How_hot_is_the_interior_of_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "135_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "136_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "137_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "138_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "139_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "13_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "140_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "141_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-3._How_can_we_presume_temperature_in_the_Earths_mantle",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "142_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-3._How_can_we_presume_temperature_in_the_Earths_mantle",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "143_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-3._How_can_we_presume_temperature_in_the_Earths_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "144_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-3._How_can_we_presume_temperature_in_the_Earths_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "145_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-3._How_can_we_presume_temperature_in_the_Earths_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "146_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-4._How_can_we_presume_temperature_in_the_Earths_core",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "147_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-4._How_can_we_presume_temperature_in_the_Earths_core",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "148_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-4._How_can_we_presume_temperature_in_the_Earths_core",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "149_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-4._How_can_we_presume_temperature_in_the_Earths_core",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "14_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "150_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-5._Summary_of_the_temperature_profile_of_the_Earths_interior",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "151_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-5._Summary_of_the_temperature_profile_of_the_Earths_interior",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "152_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-5._Summary_of_the_temperature_profile_of_the_Earths_interior",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "153_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-5._Summary_of_the_temperature_profile_of_the_Earths_interior",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "154_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Coffee_Break_4",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "155_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Coffee_Break_4",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "156_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "157_Video": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Introduction",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "158_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Quiz",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "159_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "15_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "160_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "161_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "162_Problem": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "163_HTMLModule": {
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Summary",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "164_Video": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "165_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "166_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "167_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "168_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "169_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "16_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "170_Video": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-2._Where_did_the_water_come_from",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "171_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-2._Where_did_the_water_come_from",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "172_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-2._Where_did_the_water_come_from",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "173_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-2._Where_did_the_water_come_from",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "174_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-2._Where_did_the_water_come_from",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "175_Video": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-3._How_did_the_water_fall_to_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "176_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-3._How_did_the_water_fall_to_the_Earth",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "177_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-3._How_did_the_water_fall_to_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "178_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-3._How_did_the_water_fall_to_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "179_Video": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "17_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "video",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "180_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "181_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "182_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "183_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "184_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "185_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "186_Video": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Coffee_Break_5",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "187_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "188_Video": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Introduction",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "189_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "18_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "190_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Quiz",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "191_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "192_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "193_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "194_Problem": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "195_HTMLModule": {
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Summary",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "196_HTMLModule": {
+        "section": "08-Final_Report_and_Post-Course_Survey",
+        "subsection": "Final_Report",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "197_HTMLModule": {
+        "section": "08-Final_Report_and_Post-Course_Survey",
+        "subsection": "Final_Report",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "198_HTMLModule": {
+        "section": "08-Final_Report_and_Post-Course_Survey",
+        "subsection": "Final_Report",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "199_HTMLModule": {
+        "section": "08-Final_Report_and_Post-Course_Survey",
+        "subsection": "Post-Course_Survey",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "19_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "20_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "21_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "22_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "23_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "24_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "25_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "26_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "type": "html",
+        "unit_idx": "seq_contents_5.html"
+    },
+    "27_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "28_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "29_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "30_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "31_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "32_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "33_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "34_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "type": "html",
+        "unit_idx": "seq_contents_5.html"
+    },
+    "35_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Coffee_Break_1",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "36_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Coffee_Break_1",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "37_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "38_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "39_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "40_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "problem",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "41_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "problem",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "42_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "problem",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "43_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "problem",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "44_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "problem",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "45_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "problem",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "46_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "47_Video": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "video",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "48_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "49_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "50_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "51_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "52_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "53_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "54_Problem": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "55_HTMLModule": {
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Summary",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "56_Video": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-1._What_are_plates",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "57_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-1._What_are_plates",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "58_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-1._What_are_plates",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "59_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-1._What_are_plates",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "60_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-1._What_are_plates",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "61_Video": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-2._Where_plates_are_produced",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "62_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-2._Where_plates_are_produced",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "63_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-2._Where_plates_are_produced",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "64_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-2._Where_plates_are_produced",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "65_Video": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-3._Plates_produced_at_Atlantic_Ocean",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "66_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-3._Plates_produced_at_Atlantic_Ocean",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "67_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-3._Plates_produced_at_Atlantic_Ocean",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "68_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-3._Plates_produced_at_Atlantic_Ocean",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "69_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-3._Plates_produced_at_Atlantic_Ocean",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "70_Video": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "71_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "72_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "73_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "74_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "75_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "76_Video": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Coffee_Break_2",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "77_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Introduction",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "78_Video": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Introduction",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "79_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Week_2_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "80_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Week_2_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "81_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Week_2_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "82_Problem": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Week_2_Quiz",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "83_HTMLModule": {
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Week_2_Summary",
+        "type": "html",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "84_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "85_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "86_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "87_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "88_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "type": "html",
+        "unit_idx": "seq_contents_3.html"
+    },
+    "89_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "type": "html",
+        "unit_idx": "seq_contents_4.html"
+    },
+    "90_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-2._How_can_we_estimate_chemical_composition_of_mantle",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "91_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-2._How_can_we_estimate_chemical_composition_of_mantle",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "92_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-2._How_can_we_estimate_chemical_composition_of_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "93_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-2._How_can_we_estimate_chemical_composition_of_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "94_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "video",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "95_Problem": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "problem",
+        "unit_idx": "seq_contents_0.html"
+    },
+    "96_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_1.html"
+    },
+    "97_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "98_Video": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "video",
+        "unit_idx": "seq_contents_2.html"
+    },
+    "99_HTMLModule": {
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "type": "html",
+        "unit_idx": "seq_contents_2.html"
+    }
+}

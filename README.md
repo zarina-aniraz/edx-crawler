@@ -26,23 +26,23 @@ Run a python script edx_crawler.py passing edx course link -url , username -u an
 The output is a weekly organized structure of the course, which is stored by default in "HTMLs" folder.
 The output contents are the following:
 
-* seq_contents_#.html - text data of the sequence (unit) in the .html format
-* seq_contents_#.txt - text data of the sequence (unit) in the .txt format
-* seq_contents_#_prob.txt - text data of the quiz sections in the .txt format
+* seq_contents_#.html - text data of the course unit in .html format
+* seq_contents_#.txt - text data of the course unit in .txt format
+* seq_contents_#_prob.txt - text data of the quiz sections in .txt format
 * seq_contents_#_vdo.json - video transcript information in .json format
 
 ## Converting data to JSON format
 
-After crawling courses, you may run `txtcomp2json.py` to store crawled data in json format.
+After crawling courses, you may run `txtcomp2json.py` to store crawled data in .json format.
 
 	python txtcomp2json.py
 	
- The program processes data and produces .json output in the following manner:
+ The program aggregates crawled data of the courses in "HTMLs" folder and produces .json output in the following manner:
 *all text components -> all_textcomp.json
 *all problem components -> all_probcomp.json
 *all video components -> all_videocomp.json
-*all components (text, problems, videos) -> all_comp.json
+*all components (text, quizes, videos) -> all_comp.json
 
 ## Extra files and folders
 
-transcript_error_report.txt contains the information about video transcripts which are not provided by edx or YouTube.
+transcript_error_report.txt contains the information about video transcripts which are not provided by edX or YouTube.

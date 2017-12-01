@@ -1,0 +1,41 @@
+{
+    "video_block_06": {
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "unit_idx": "seq_contents_3",
+        "transcript_en": [
+            "Hi I am Yoshiyuki , one of the TAs of this course.",
+            "and I am Haruka. I am also one of TAs.",
+            "Today, we will introduce a simple experiment to observe the differences between the the longitudinal wave and the transverse wave.",
+            "I think You can do this experiment in your house too, so please try.",
+            "Today, we will conduct experiments using this device.",
+            "In week1, we learned that we are exploring the Earth&#39;s interior using seismic wave.",
+            "And we also learned that the seismic wave has P-wave, which is a longitudinal wave and S-wave, which is a transverse wave.",
+            "So, let\u2019s look at the two waves using this device.",
+            "First, it is the longitudinal wave, P-wave.",
+            "Do you see that dense section is moving in the same direction as the traveling direction of the wave?",
+            "Let&#39;s try again.",
+            "Next is the transverse wave, S-wave.",
+            "This time, movement of the weights is vertical to the traveling direction of the wave.",
+            "I&#39;ll try again.",
+            "Well, let&#39;s then focus on the differences in the speed of P-wave and S-wave.",
+            "First, it is the P-wave.",
+            "Next is the S-wave.",
+            "You can see that the P- wave is faster than the S- wave.",
+            "In this way, generally, P- wave is faster than S- wave.",
+            "This is the same even in the case of seismic waves.",
+            "longitudinal wave arrives earlier than transverse wave, so that\u2019s why we call longitudinal wave as Primary Wave = P wave,",
+            "P wave",
+            "and transverse wave arrives next,so we call transverse wave Secondary Wave.",
+            "S wave",
+            "Next, in the case of seismic waves, P-wave and S-wave would transmit at the same time.Let&#39;s see how the 2 waves go transmitted.",
+            "Please see one more.",
+            "wave\u2019s velocity depends on the composition and state of material which wave travels through.",
+            "Also, in Japan, When an earthquake occurs, by capturing the P wave that reaches first, we predict a more big shake, that is S wave. This will minimize the damage caused by earthquakes.",
+            "The difference between the P-wave and S-wave has been useful in various places, not only to explore the interior of the Earth.",
+            "Thank you very much. Bye."
+        ],
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "youtube_url": "https://youtu.be/Ko-0uEBsvMk",
+        "video_duration": 342
+    }
+}

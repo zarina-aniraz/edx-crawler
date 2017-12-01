@@ -1,0 +1,191 @@
+{
+    "quiz_block_01": {
+        "content": "\n Quiz\n \n      Which of the following are layers of Earth? (Select all that apply)\n      \n\n       Magma\n       \n\n       Crust\n       \n\n       Mantle\n       \n\n       Onion\n       \n\n       Core\n       \n\n       Volcano\n       ",
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-1._Actual_conditions_inside_the_Earth",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "19"
+    },
+    "quiz_block_02": {
+        "content": "\n Quiz\n \n      What percent of Earth's radius can humans dig?\n      \n\n       1/5\n       \n\n       1/50\n       \n\n       1/500\n       \n\n       1/5000\n       ",
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-2._Methods_for_examining_the_inside_of_the_Earth",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "13"
+    },
+    "quiz_block_03": {
+        "content": "\n Quiz a\n \n    The liquid section of Earth can be detected by observing the non-existence of which wave?\n    \n\n       Electromagnetic wave\n       \n\n       Tsunami\n       \n\n       P-wave\n       \n\n       S-wave\n       \n Quiz b\n \n    CHALLENGE!\n    \n    We learned about the characteristics of P-wave and S-wave. This is a simple computational problem about these 2 waves.\n    \n    An earthquake which occurred in Japan has observed at the North Pole. In such a case, how long is the gap between the arrival of the first P-wave and S-wave?\n    \n    P-waves travel at 13 km/s and S-waves travel at 7 km/s. Both waves are deemed to travel in a straight line through the interior of Earth.\n    \n    The latitude of Japan is 30\u00b0 North. Assume the Earth as a perfect sphere with a radius of 6,400 km.\n    \n\n       0.7 seconds\n       \n\n       7 seconds\n       \n\n       7 minutes\n       \n\n       7 hours\n       ",
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-3._Three-layer_structure_seen_from_seismic_wave_observation",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "128"
+    },
+    "quiz_block_04": {
+        "content": "\n Quiz\n \n      What percent of the volume of the core is solid?\n      \n\n       4%\n       \n\n       14%\n       \n\n       69%\n       \n\n       96%\n       ",
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "1-4._Examining_the_three_layers_from_a_variety_of_perspectives",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "15"
+    },
+    "quiz_block_05": {
+        "content": "\n Q1\n \n   Which of the following figure dose represent Earth's structure?\n   \n\n       a\n       \n\n       b\n       \n\n       c\n       \n Q2\n \n      What percent of Earth's radius have humans been able to dig?\n      \n\n       2%\n       \n\n       0.2%\n       \n\n       0.02%\n       \n\n       0.002%\n       \n Q3\n \n   What percent of the volume of the Earth is liquid? (Please choose the answer from multiple of 5 like 5, 10, 15, ..., 95, 100. You don't have to put \"%\" in your answer.)\n   \n \n Q4\n \n      What would be the temprature at the center of the Earth?\n      \n\n       Around 1200 \u00b0C / 2200 \u00b0F\n       \n\n       Around 6000 \u00b0C / 10800 \u00b0F\n       \n\n       Around 12000 \u00b0C / 21600 \u00b0F\n       \n\n       Around 60000 \u00b0C / 108000 \u00b0F\n       \n Q5\n \n      Which material(s) could be useful to estimate the chemical compositon of the whole Earth.\n      \n\n       Solar atmosphere\n       \n\n       Sea water\n       \n\n       Xenolith (A rock from a deep part of the Earth)\n       \n\n       A grain of sand captured in merteorite by satelites\n       \n\n       Human body\n       \n    Note: Make sure you select all of the correct options\u2014there may be more than one!\n    \n Q6\n \n      What happened to most of the water which came to the Earth?\n      \n\n       Most evaporated, leaving only the oceans\n       \n\n       It was incorporated deep inside of the Earth\n       \n\n       It is absorbed in surface rocks of the Earth\n       \n\n       It is dissolved in Earth's atmosphere\n       ",
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Introduction",
+        "unit_idx": "seq_contents_1_prob.txt",
+        "word_count": "197"
+    },
+    "quiz_block_06": {
+        "content": "\n Q1\n \n    State the major component of the crust and the state of the substance.\n    \n \n Q2\n \n    State the major component of the mantle and the state of the substance.\n    \n \n Q3\n \n    State the major component of the outer core and the state of the substance.\n    \n \n Q4\n \n    State the major component of the inner core and the state of the substance.\n    \n \n Q5\n \n      How large proportion is melting inside the Earth?\n      \n\n       15%\n       \n\n       40%\n       \n\n       60%\n       \n\n       85%\n       ",
+        "section": "02-Week_1._Introduction_to_the_solid_Earth",
+        "subsection": "Week_1_Quiz",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "71"
+    },
+    "quiz_block_07": {
+        "content": "\n Quiz\n \n    According to the lecture, how are plate boundaries defined?\n    \n\n       hypocentral distribution of earthquakes\n       \n\n       borders of each country\n       \n\n       boundary of the sea and land\n       \n\n       along the river\n       ",
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-1._What_are_plates",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "27"
+    },
+    "quiz_block_08": {
+        "content": "\n Quiz\n \n    What percentage of global volcanic activity occurs at mid-ocean ridges?\n    \n\n       25\uff05\n       \n\n       50%\n       \n\n       75%\n       \n\n       100%\n       ",
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-2._Where_plates_are_produced",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "15"
+    },
+    "quiz_block_09": {
+        "content": "\n Quiz\n \n    Who first proposed the continental drift theory in 1912?\n    \n\n       Alfred Wegener\n       \n\n       Albert Einstein\n       \n\n       Kei Hirose\n       \n\n       Sir Isaac Newton\n       ",
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-3._Plates_produced_at_Atlantic_Ocean",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "19"
+    },
+    "quiz_block_10": {
+        "content": "\n Quiz a\n \n    From among volcanic activity occurring on the Earth, what is the ratio of magma created by volcanoes in subduction zones?\n    \n\n       5\uff05\n       \n\n       20%\n       \n\n       50\uff05\n       \n\n       85\uff05\n       \n Quiz b\n \n   CHALLENGE!\n   \n    The volcanoes in the Tohoku region of Japan are shown in the illustration above. In general, the volcanic front (defined by the nearest volcanoes from trench) is found about 100km above a subducting oceanic plate. The linear distance from the ocean trench to the nearest volcano on the ground surface is 300 km. What is the subduction angle(\u00b0) of the oceanic plate?\n    \n    If necessary, please refer to the following trigonometric function table.\n    \n\n       8\u00b0\n       \n\n       18\u00b0\n       \n\n       28\u00b0\n       \n\n       38\u00b0\n       ",
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "2-4._Plates_produced_at_Pacific_Ocean",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "105"
+    },
+    "quiz_block_11": {
+        "content": "\n Q1\n \n    This figure shows a plate with the Euler pole and the Euler pole's equater. Which point is moving the fastest among the four points A to D ?\n    \n\n       A\n       \n\n       B\n       \n\n       C\n       \n\n       D\n       \n Q2\n \n    This figure shows an ocean ridge. Choose a formation age appropriate to each point A to D from the table below. (Formation ages of B and C are equal.)\n    \n\n       (Old) A, B=C, D (New)\n       \n\n       (Old) D, B=C, A (New)\n       \n\n       (Old) B=C, A, D (New)\n       \n\n       (Old) A, D, B=C (New)\n       \n Q3\n \n    Which geologic events are NOT derived from the work of subduction zone of plate?\n    \n\n       aurora\n       \n\n       typhoon(hurricane)\n       \n\n       the creation of volcanoes\n       \n\n       seismic activity\n       \n\n       orogenic activity\n       \n Q4\n \n    Why do volcanic activities occur at the subduction zone of plate? Choose the best explanation from the list below.\n    \n\n       The melting point is lowered by addition of water to the rocks.\n       \n\n       Seismic energy is caused by earthquakes occuring at the subduction zone.\n       \n\n       Friction energy occurs between plates and mantle.\n       \n\n       Gravity energy is released by subsidence of plates.\n       ",
+        "section": "03-Week_2._Plate_Tectonics",
+        "subsection": "Week_2_Quiz",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "166"
+    },
+    "quiz_block_12": {
+        "content": "\n Quiz\n \n    Which of the following factors is related to the difference in melting temperature between basaltic magma and granitic magma?\n    \n\n       Difference in water content\n       \n\n       Difference in iron content\n       \n\n       Difference in the depth they are found at\n       \n\n       Difference in color\n       ",
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-1._Two_main_types_of_rocks_at_the_crust",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "39"
+    },
+    "quiz_block_13": {
+        "content": "\n Quiz\n \n    How can we assume that the mantle is relatively homogeneous in composition?\n    \n\n       By seismology which suggests that a whole mantle is well mixed by radiation\n       \n\n       By seismology which suggests that a whole mantle is well mixed by conduction\n       \n\n       By seismology which suggests that a whole mantle is well mixed by convection\n       ",
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-2._How_can_we_estimate_chemical_composition_of_mantle",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "52"
+    },
+    "quiz_block_14": {
+        "content": "\n Quiz\n \n    How can we estimate that the approximate chemical composition of entire mantle corresponds to the chemical composition of Olivine?\n    \n\n       Through high pressure experiments, it has been found that the chemical composition of rocks in the crust is the same as the chemical composition of rocks in the shallow part of the mantle\n       \n\n       The depth that phase transition occurs when a rock from the shallow part of a mantle is placed in a high pressure experiment matches the depth of the reflection surfaces of seismic waves\n       \n\n       The chemical composition of rocks in the mantle can be learned directly by observing of seismic waves\n       ",
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-3._Phase_transitions_and_major_minerals_in_the_mantle",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "103"
+    },
+    "quiz_block_15": {
+        "content": "\n Quiz a\n \n    Why can it be predicted that the chemical composition of Earth as a whole generally has a high degree of coincidence with those of meteorites?\n    \n\n       Because the chemical composition of the solar atmosphere and that of meteorites have a high degree of coincidence, and Earth is between the sun and the asteroid belt\n       \n\n       Because the chemical composition of the solar atmosphere and that of Earth's atmosphere have a high degree of coincidence, and Earth is between the sun and the asteroid belt\n       \n\n       Because the chemical composition of Earth's atmosphere and that of meteorites have a high degree of coincidence, and Earth is between the sun and the asteroid belt\n       \n Quiz b\n \n    Why is the core predicted to contain light elements?\n    \n\n       Because the actual core density as learned by observing seismic waves is lower than that of a core hypothesized to contain only light elements\n       \n\n       Because light elements cannot escape from the core\n       \n\n       Because the core contains elements heavier than iron, and light elements are necessary to balance the weight\n       \n\n       Because the actual core density as learned by observing seismic waves is lower than that of pure iron\n       ",
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "3-4._Meteorites_as_a_key_for_estimating_core_elements",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "189"
+    },
+    "quiz_block_16": {
+        "content": "\n Q1\n \n    Basalts have also been found on other celestial bodies than Earth in the solar system. Choose the planets or satellites according to the lecture.\n    \n\n       Mars\n       \n\n       Venus\n       \n\n       Moon\n       \n\n       Jupiter\n       \n\n       Saturn\n       \n Q2\n \n    Which evidence is the best for indicating presence of liquid water on a planet in the past.\n    \n\n       The planet has granite.\n       \n\n       The planet has the magnetic field.\n       \n\n       The planet has been collided by asteroids.\n       \n\n       The planet has basalts.\n       \n Q4\n \n    This diagram plots the ratio of elements in the chemical composition of meteorites and that of the solar atmosphere. To plot hydrogen(Note that hydrogen is a volatile element) in this diagram, which of the following locations should it be?\n    \n\n       1\n       \n\n       2\n       \n\n       3\n       \n Q5\n \n    How can the chemical composition of the nonvolatile elements in the core be estimated conceptionally? (the chemical composition of the nonvolatile elements in the core)\n    \n\n       = (chemical composition of Earth as a whole as estimated from meteorites) + (chemical composition of mantle) - (chemical composition of crust)\n       \n\n       = (chemical composition of Earth as a whole as estimated from meteorites)\n       \n\n       = (chemical composition of Earth as a whole as estimated from meteorites) - (chemical composition of mantle) - (chemical composition of crust)\n       \n\n       = 2 \u00d7 (chemical composition of mantle) - (chemical composition of crust)\n       ",
+        "section": "04-Week_3._Chemical_composition_of_our_planet",
+        "subsection": "Week_3_Quiz",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "206"
+    },
+    "quiz_block_17": {
+        "content": "\n Quiz\n \n    The temperature rises approximately 3 K for every 100 m down near the Earth\u2019s surface. Assuming this rate holds to a deeper level, at what depth will the mantle begin to melt?\n    \n\n       5 km\n       \n\n       50 km\n       \n\n       500 km\n       \n\n       5,000 km\n       ",
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-1._How_hot_is_the_interior_of_the_Earth",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "41"
+    },
+    "quiz_block_18": {
+        "content": "\n Quiz\n \n    Figure represents the geotherm. Choose the appropriate temperature gradient of mantle at a boundary between the plate and the mantle \u2460~\u2463 from the direction of arrow \u2460~\u2463 in figure.\n    \n\n       \u2460\n       \n\n       \u2461\n       \n\n       \u2462\n       \n\n       \u2463\n       ",
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-2._Heat_transport_in_the_Earth",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "34"
+    },
+    "quiz_block_19": {
+        "content": "\n Quiz\n \n    Which of the following is thought to move at approximately the same speed as the convection motion inside the mantle?\n    \n\n       the earth's revolution around the sun\n       \n\n       the earth\u2019s rotation on its axis\n       \n\n       plate movement\n       \n\n       seismic wave\n       ",
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-3._How_can_we_presume_temperature_in_the_Earths_mantle",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "37"
+    },
+    "quiz_block_20": {
+        "content": "\n Quiz\n \n    According to the lecture, which is the correct description of the estimated CMB temperature?\n    \n\n       Below 2500 K\n       \n\n       2500 K~3000 K\n       \n\n       3000 K~3600 K\n       \n\n       Above 3600 K\n       ",
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-4._How_can_we_presume_temperature_in_the_Earths_core",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "27"
+    },
+    "quiz_block_21": {
+        "content": "\n Quiz\n \n    Choose which is the temperature that is about the same as the temperature of Earth\u2019s center among the following.\n    \n\n       surface of the Sun\n       \n\n       hot spring\n       \n\n       body warmth\n       \n\n       center of the Sun\n       \n\n       volcanic magma\n       ",
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "4-5._Summary_of_the_temperature_profile_of_the_Earths_interior",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "34"
+    },
+    "quiz_block_22": {
+        "content": "\n Q1\n \n   This figure represents a geotherm from the surface to outer core in the Earth. Choose a mechanism dominating the heat transportation in each region (1.red, 2.yellow, 3.green, and 4.blue).\n   \n   1. red region\n   \n \n   2. yellow region\n   \n \n   3. green region\n   \n \n   4. blue region\n   \n \n Q2\n \n    How fast are the mantle rocks moving with the convection?\n    \n\n       0 cm (not moving)\n       \n\n       a few centimeters to a few tens of centimeters per year\n       \n\n       a few meters to a few tens of meters per year\n       \n\n       a few kilometers to a few tens of kilometers per year\n       \n Q3\n \n    Choose the reason that gives the best explanation why we can assume that convection occurs in the outer core?\n    \n\n       The Earth has a magnetic field\n       \n\n       Meteorites often fall to the Earth\n       \n\n       Convection occurs in the lower mantle\n       \n\n       The Earth has volcanic activity\n       \n Q4\n \n   According to the lecture, the temperature at the CMB is estimated to be 3000 K~3600 K. How can we constrain these temperatures?\n   \n   1. 3600 K\n   \n\n       The temperature has NOT to be over the melting point of lower mantle.\n       \n\n       The temperature has to be over the melting point of lower mantle.\n       \n\n       The temperature has to be over the melting point of outer core.\n       \n\n       The temperature has NOT to be over the melting point of outer core.\n       \n   2. 3000 K\n   \n\n       The temperature has NOT to be over the melting point of lower mantle.\n       \n\n       The temperature has to be over the melting point of lower mantle.\n       \n\n       The temperature has to be over the melting point of outer core.\n       \n\n       The temperature has NOT to be over the melting point of outer core.\n       ",
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "subsection": "Week_4_Quiz",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "262"
+    },
+    "quiz_block_23": {
+        "content": "\n Quiz a\n \n    Choose the most correct description about the Earth\u2019s sea from below.\n    \n\n       The mass and volume of seawater are quite small when compared to the Earth as a whole.\n       \n\n       Seawater accounts for a large proportion of the entire Earth in volume and mass.\n       \n\n       In this whole universe, Celestial body that water is present has not been found except for the Earth.\n       \n\n       There is no creature in the Earth\u2019s ocean.\n       \n Quiz b\n \n    If the height of the sea water becomes higher than the current, how much landmass would remain? Let's take a look at using the figure below.\n    \n    If the sea depth becomes 1.5 times higher than the current sea depth, how much does the cumulative surface area become?\n    \n    Note: It is estimated that the current sea depth is 4km, and the current cumulative surface area is 35% of the total surface of the earth.\n    \n\n       20%\n       \n\n       15%\n       \n\n       10%\n       \n\n       5%\n       ",
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-1._Is_the_Earth_a_watery_planet",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "149"
+    },
+    "quiz_block_24": {
+        "content": "\n Quiz\n \n    The Earth is inside of the snow line defined by astrophysics. According to the lecture, where is water believed to have come from?\n    \n\n       Since Jupiter possesses enormous mass, it is believed that the gravitational disturbances caused meteorites containing water ice to fall onto the Earth's surface.\n       \n\n       Since water inside of the snow line exists as water vapor, it is believed that the Earth has captured these water vapor by gravity.\n       \n\n       The Earth has gradually acquired the hydrogen ions contained in the solar wind, and these hydrogen became water by reacting with oxygen.\n       \n\n       Life is flourishing on the Earth\u2019s surface.\n       ",
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-2._Where_did_the_water_come_from",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "100"
+    },
+    "quiz_block_25": {
+        "content": "\n Quiz\n \n    What term is used to refer to the condition in which the entire Earth was covered in magma?\n    \n\n       Magma ocean\n       \n\n       Magma flood\n       \n\n       Magma plains\n       \n\n       Magma earth\n       ",
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-3._How_did_the_water_fall_to_the_Earth",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "27"
+    },
+    "quiz_block_26": {
+        "content": "\n Quiz a\n \n    About how much water (hydrogen) is contained in the core compared with the amount of sea water?\n    \n\n       Nearly the same amount of sea water\n       \n\n       80 times of sea water\n       \n\n       800 times of sea water\n       \n\n       1/80 times of sea water\n       \n Quiz b\n \n    CHALLENGE!\n    \n    Inclusions in diamonds from the mantle transition zone (under 410 to 660 km from the surface of the Earth) was found to contain 1.0 wt% of water. Suppose that this value represents the water content of this transition zone. It is estimated that the density of the mantle transition zone is \\(3.5 [g/cm^3]\\) and the volume of the mantle transition zone is approximately \\(1.1*10^{11} [km^3] \\). In this case, how much water is contained in the transition zone compared to the water contained in the ocean?\n    \n    Note: Total water contained in the ocean is approximately \\(2.0*10^{24} [g] \\)\n    \n     [kg]\n    \n    . (We are very sorry that the unit of the ocean's mass was wrong.)\n    \n\n       0.02 times\n       \n\n       0.2 times\n       \n\n       2 times (twice)\n       \n\n       20 times\n       ",
+        "section": "07-Week_5._Earths_water",
+        "subsection": "5-4._Where_has_the_water_gone",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "166"
+    },
+    "quiz_block_27": {
+        "content": "\n Q1\n \n    In this week, we learned that liquid water is essential for life flourishing.\n    \n    Which of the following is thought to be a suitable reason for life having flourished on Earth?\n    \n\n       Earth is the only planet with water(or ice) in the whole universe\n       \n\n       Earth is the planet occupied by the greatest proportion of water\n       \n\n       Earth is the planet covered with so small amount of water that land and ocean can coexist.\n       \n\n       Earth is the planet that is covered with 14-15 plates.\n       \n Q2\n \n    According to the lecture, how did Earth gain its water?\n    \n\n       Earth was originally outside the snow line and gained ice but the snow line gradually moved to outer solar system and left the Earth behind.\n       \n\n       Earth was outside the snow line at its birth, where it gained ice, and \u00a0gradually moved inside the snow line\n       \n\n       Earth was inside the snow line at its birth but gradually moved to outside of the snow line, where it gained ice\n       \n\n       Earth was originally inside the snow line, but gained it by planetoids with ice coming in from outside of the snow line\n       \n Q3\n \n    When Earth had a magma ocean, what area is thought to have had the highest amount of water (hydrogen)?\n    \n\n       Primordial atmosphere\n       \n\n       Primordial ocean\n       \n\n       Magma ocean\n       \n\n       Iron core\n       \n Q4\n \n    According to the lecture, what happened to most of the water which came to Earth?\n    \n\n       Most evaporated, leaving only the oceans\n       \n\n       It was incorporated deep inside Earth\n       \n\n       It is absorbed in the plates of Earth\n       \n\n       It is dissolved in Earth's atmosphere\n       ",
+        "section": "07-Week_5._Earths_water",
+        "subsection": "Week_5_Quiz",
+        "unit_idx": "seq_contents_0_prob.txt",
+        "word_count": "251"
+    }
+}

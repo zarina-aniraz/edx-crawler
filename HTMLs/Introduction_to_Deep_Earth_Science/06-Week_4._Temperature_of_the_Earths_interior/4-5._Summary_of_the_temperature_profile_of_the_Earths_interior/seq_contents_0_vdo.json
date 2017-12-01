@@ -1,0 +1,34 @@
+{
+    "video_block_38": {
+        "subsection": "4-5._Summary_of_the_temperature_profile_of_the_Earths_interior",
+        "unit_idx": "seq_contents_0",
+        "transcript_en": [
+            "In conclusion, let's look at a single figure which summarizes the temperature structure",
+            "inside of the entire earth.",
+            "Plates exist at the shallowest areas of the earth's surface.",
+            "Since convection does not occur inside of plates, heat must be transported by conduction.",
+            "Therefore, there is a relatively steep temperature gradient inside of plates.",
+            "Under the plates, the mantle undergoes convection and therefore has a relatively gentle temperature gradient.",
+            "The temperature at the bottom of plates is known to be around 1,500 K.",
+            "Furthermore, by using the phase transition boundary to create fixed points inside of",
+            "the earth's mantle, we can determine the temperature structure",
+            "inside of the interior. In this way, the temperature at the bottom of the mantle",
+            "is estimated to reach 2,500 K. Under the mantle is the core.",
+            "The temperature at the top of the core is thought to be between 3,000 and 3,600 K.",
+            "Accordingly, we know that a steep temperature gradient determined by heat conduction exists",
+            "at the bottom of the mantle. That is, heat conduction causes a large amount",
+            "of heat to flow from the core to the bottom of the mantle.",
+            "This causes the temperature to rises rapidly from 2,500 K at the bottom of the mantle to",
+            "about 3,500 K, which is the upper limit for temperature at",
+            "the top of the outer core. Generally speaking, an adiabatic temperature",
+            "gradient exists inside of the core, so a gentle temperature gradient continues.",
+            "As a result, the temperature at the center of the earth is thought to be about 6,000 K.",
+            "Actually, 6,000 K is approximately the same",
+            "temperature as the surface of the sun. Please remember that the temperature at the",
+            "center of the earth is approximately as hot as the surface of the sun."
+        ],
+        "section": "06-Week_4._Temperature_of_the_Earths_interior",
+        "youtube_url": "https://youtu.be/QYMXND22vX4",
+        "video_duration": 167
+    }
+}
